@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <title>Outward Message</title>
+    <link rel="stylesheet" href="{{ host }}/report_transaction_table.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <img src="{{ host }}/mufg_logo.png" />
+      <span>MUFG</span>
+    </div>
+    <div class="header-content">
+      <h2>{{ type }} TRANSACTION - {{ date }}</h2>
+    </div>
+    <div class="transactions-content">
+      <div class="report-content">
+        <table class="report-table">
+          <thead>
+            <tr class="border-bottom">
+              <th class="text-left">
+                <b>EXTERNAL REFERENCE</b>
+              </th>
+              <th class="text-left">
+                <b>{{ bankLabel }}</b>
+              </th>
+              <th class="text-left">
+                <b>BENEFICIARY</b>
+              </th>
+              <th class="text-left">
+                <b>BENEFICIARY ACCOUNT NUMBER</b>
+              </th>
+              <th class="text-left">
+                <b>CURRENCY</b>
+              </th>
+              <th class="text-left">
+                <b>AMOUNT</b>
+              </th>
+            </tr>
+          </thead>
+        </table>
+        {{#each txn}}
+        <table class="report-table">
+          <tbody>
+            <tr>
+              <td>{{ this.ofiReferenceNumber }}</td>
+              {{#if ../isOutward}}
+              <td>{{ this.beneficiaryBIC }}</td>
+              {{else}}
+              <td>{{ this.remitterBIC }}</td>
+              {{/if}}
+              <td>{{ this.beneficiaryName }}</td>
+              <td>{{ this.beneficiaryAccountNumber }}</td>
+              <td>PHP</td>
+              <td>{{ this.parsedAmount }}</td>
+            </tr>
+          </tbody>
+        </table>
+        {{/each}}
+        <table class="report-table">
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="report-table">
+          <tbody>
+            <tr>
+              <td><b>TOTAL AMOUNT:</b></td>
+              <td>{{ totalAmount }}</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <table class="report-table">
+          <tbody>
+            <tr>
+              <td><b>TOTAL COUNT:</b></td>
+              <td>{{ count }}</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

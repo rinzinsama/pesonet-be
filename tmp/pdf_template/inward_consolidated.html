@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <title>Outward Message</title>
+    <link rel="stylesheet" href="{{ host }}/inward_consolidated.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <img src="{{ host }}/mufg_logo.png" />
+      <span>MUFG</span>
+    </div>
+    <div class="header-content">
+      <h2>INWARD MESSAGES - {{ date }}</h2>
+    </div>
+    <div class="transactions-content">
+      <div class="report-content">
+        <table class="report-table">
+          <thead>
+            <tr class="border-bottom">
+              <th class="text-left">
+                <b>EXTERNAL REFERENCE</b>
+              </th>
+              <th class="text-left">
+                <b>SENDING BANK</b>
+              </th>
+              <th class="text-left">
+                <b>BENEFICIARY</b>
+              </th>
+              <th class="text-left">
+                <b>BENEFICIARY ACCOUNT NUMBER</b>
+              </th>
+              <th class="text-left">
+                <b>CURRENCY</b>
+              </th>
+              <th class="text-left">
+                <b>AMOUNT</b>
+              </th>
+              <th class="text-left">
+                <b>STATUS</b>
+              </th>
+            </tr>
+          </thead>
+        </table>
+        {{#each txn}}
+        <table class="report-table">
+          <tbody>
+            <tr>
+              <td>{{ this.ofiReferenceNumber }}</td>
+              <td>{{ this.remitterBIC }}</td>
+              <td>{{ this.beneficiaryName }}</td>
+              <td>{{ this.beneficiaryAccountNumber }}</td>
+              <td>PHP</td>
+              <td>{{ this.parsedAmount }}</td>
+              <td>{{ this.status }}</td>
+            </tr>
+          </tbody>
+        </table>
+        {{/each}}
+      </div>
+    </div>
+  </body>
+</html>

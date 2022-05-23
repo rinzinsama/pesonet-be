@@ -1,0 +1,751 @@
+{
+    "PESONetMemberBanks": [
+        {
+            "BICFI": "BOPIPHMMXXX",
+            "bank_name": "BANK OF THE PHILIPPINE ISLANDS",
+            "pchc": {
+                "bank_code": "004",
+                "head_office_brstn": "010040018"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "SCBLPHMMXXX",
+            "bank_name": "THE STANDARD CHARTERED BANK",
+            "pchc": {
+                "bank_code": "005",
+                "head_office_brstn": "010050011"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "HSBCPHMMXXX",
+            "bank_name": "HK AND SHANGHAI BANKING CORP.",
+            "pchc": {
+                "bank_code": "006",
+                "head_office_brstn": "010060014"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CITIPHMXXXX",
+            "bank_name": "CITIBANK, N. A.",
+            "pchc": {
+                "bank_code": "007",
+                "head_office_brstn": "010070017"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PNBMPHMMXXX",
+            "bank_name": "PHILIPPINE NATIONAL BANK",
+            "pchc": {
+                "bank_code": "008",
+                "head_office_brstn": "010080010"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PHTBPHMMXXX",
+            "bank_name": "PHILIPPINE TRUST COMPANY",
+            "pchc": {
+                "bank_code": "009",
+                "head_office_brstn": "010090039"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CHBKPHMMXXX",
+            "bank_name": "CHINA BANKING CORPORATION",
+            "pchc": {
+                "bank_code": "010",
+                "head_office_brstn": "010100013"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CPHIPHMMXXX",
+            "bank_name": "PHIL. BANK OF COMMUNICATIONS",
+            "pchc": {
+                "bank_code": "011",
+                "head_office_brstn": "010110016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "BOFAPH2XXXX",
+            "bank_name": "BANK OF AMERICA, NAT'L. ASS'N.",
+            "pchc": {
+                "bank_code": "012",
+                "head_office_brstn": "010120019"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "SETCPHMMXXX",
+            "bank_name": "SECURITY BANK CORPORATION",
+            "pchc": {
+                "bank_code": "014",
+                "head_office_brstn": "010140015"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "MBBEPHMMXXX",
+            "bank_name": "MAYBANK PHILS.,INC.",
+            "pchc": {
+                "bank_code": "022",
+                "head_office_brstn": "010220016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "MBTCPHMMXXX",
+            "bank_name": "METROPOLITAN BANK AND TRUST CO",
+            "pchc": {
+                "bank_code": "026",
+                "head_office_brstn": "010269996"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "UOVBPHMMXXX",
+            "bank_name": "UNITED OVERSEAS BANK PHILS.",
+            "pchc": {
+                "bank_code": "027",
+                "head_office_brstn": "010270341"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "RCBCPHMMXXX",
+            "bank_name": "RIZAL COMMERCIAL BANKING CORP.",
+            "pchc": {
+                "bank_code": "028",
+                "head_office_brstn": "010280014"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "UCPBPHMMXXX",
+            "bank_name": "UNITED COCONUT PLANTERS BANK",
+            "pchc": {
+                "bank_code": "029",
+                "head_office_brstn": "010299995"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PHVBPHMMXXX",
+            "bank_name": "PHILIPPINE VETERANS BANK",
+            "pchc": {
+                "bank_code": "033",
+                "head_office_brstn": "010330016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "TLBPPHMMXXX",
+            "bank_name": "LAND BANK OF THE PHILIPPINES",
+            "pchc": {
+                "bank_code": "035",
+                "head_office_brstn": "010350025"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "BPFFPHM1XXX",
+            "bank_name": "BPI FAMILY BANK",
+            "pchc": {
+                "bank_code": "039",
+                "head_office_brstn": "010391712"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "UBPHPHMMXXX",
+            "bank_name": "UNION BANK OF THE PHILIPPINES",
+            "pchc": {
+                "bank_code": "041",
+                "head_office_brstn": "010419995"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PABIPHMMXXX",
+            "bank_name": "BANK OF COMMERCE",
+            "pchc": {
+                "bank_code": "044",
+                "head_office_brstn": "010440016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "BOTKPHMMXXX",
+            "bank_name": "BANK OF TOKYO-MITS., LIMITED",
+            "pchc": {
+                "bank_code": "046",
+                "head_office_brstn": "010460012"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PHSBPHMMXXX",
+            "bank_name": "PHILIPPINE SAVINGS BANK",
+            "pchc": {
+                "bank_code": "047",
+                "head_office_brstn": "010470992"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "UCSVPHM1XXX",
+            "bank_name": "UCPB SAVINGS BANK",
+            "pchc": {
+                "bank_code": "049",
+                "head_office_brstn": "010490150"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CESNPHM1XXX",
+            "bank_name": "CENTURY SAVINGS BANK",
+            "pchc": {
+                "bank_code": "051",
+                "head_office_brstn": "010510056"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "BNORPHMMXXX",
+            "bank_name": "BANCO DE ORO UNIBANK, INC.",
+            "pchc": {
+                "bank_code": "053",
+                "head_office_brstn": "010530667"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "ICBCPHMMXXX",
+            "bank_name": "MEGA INTL COMML BANK CO. LTD",
+            "pchc": {
+                "bank_code": "056",
+                "head_office_brstn": "010560019"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "DBPHPHMMXXX",
+            "bank_name": "DEVT. BANK OF THE PHILIPPINES",
+            "pchc": {
+                "bank_code": "059",
+                "head_office_brstn": "010590018"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "RCSAPHM1XXX",
+            "bank_name": "RCBC SAVINGS BANK",
+            "pchc": {
+                "bank_code": "060",
+                "head_office_brstn": "010600856"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "EWBCPHMMXXX",
+            "bank_name": "EAST-WEST BANKING CORPORATION",
+            "pchc": {
+                "bank_code": "062",
+                "head_office_brstn": "010620014"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "MHCBPHMMXXX",
+            "bank_name": "MIZUHO BANK,LTD.",
+            "pchc": {
+                "bank_code": "064",
+                "head_office_brstn": "010640010"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "DEUTPHMMXXX",
+            "bank_name": "DEUTSCHE BANK",
+            "pchc": {
+                "bank_code": "065",
+                "head_office_brstn": "010650013"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "BKKBPHMMXXX",
+            "bank_name": "BANGKOK BANK PUBLIC CO., LTD.",
+            "pchc": {
+                "bank_code": "067",
+                "head_office_brstn": "010670019"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CTCBPHMMXXX",
+            "bank_name": "CTBC BANK (PHILIPPINES) CORP.",
+            "pchc": {
+                "bank_code": "069",
+                "head_office_brstn": "010690015"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "ANZBPHMXXXX",
+            "bank_name": "AUSTRALIA & NEW ZEALAND BANK",
+            "pchc": {
+                "bank_code": "070",
+                "head_office_brstn": "010700015"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "KOEXPHMMXXX",
+            "bank_name": "KEB HANA BANK",
+            "pchc": {
+                "bank_code": "071",
+                "head_office_brstn": "010710018"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CHASPHMMXXX",
+            "bank_name": "JPMORGAN CHASE BANK",
+            "pchc": {
+                "bank_code": "072",
+                "head_office_brstn": "010720011"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "FIOOPHM1XXX",
+            "bank_name": "FIRST CONSOLIDATED BANK",
+            "pchc": {
+                "bank_code": "078",
+                "head_office_brstn": "020780012"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "EQSNPHM1XXX",
+            "bank_name": "EQUICOM SAVINGS BANK",
+            "pchc": {
+                "bank_code": "096",
+                "head_office_brstn": "010960017"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PPBUPHMMXXX",
+            "bank_name": "PHILIPPINE BUSINESS BANK",
+            "pchc": {
+                "bank_code": "097",
+                "head_office_brstn": "010970010"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "AUBKPHMMXXX",
+            "bank_name": "ASIA UNITED BANK",
+            "pchc": {
+                "bank_code": "102",
+                "head_office_brstn": "011020011"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "ROBPPHMQXXX",
+            "bank_name": "ROBINSONS BANK CORPORATION",
+            "pchc": {
+                "bank_code": "107",
+                "head_office_brstn": "011070016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "TYBKPHMMXXX",
+            "bank_name": "YUANTA SAVINGS BANK,INC.",
+            "pchc": {
+                "bank_code": "113",
+                "head_office_brstn": "011130011"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "BKCHPHMMXXX",
+            "bank_name": "BANK OF CHINA",
+            "pchc": {
+                "bank_code": "114",
+                "head_office_brstn": "011140014"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "STLAPH22XXX",
+            "bank_name": "Sterling Bank of Asia",
+            "pchc": {
+                "bank_code": "119",
+                "head_office_brstn": "011190284"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "SMBCPHMMXXX",
+            "bank_name": "SUMITOMO MITSUI BANKING CORP",
+            "pchc": {
+                "bank_code": "128",
+                "head_office_brstn": "011280013"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "SHBKPHMMXXX",
+            "bank_name": "SHINHAN BANK",
+            "pchc": {
+                "bank_code": "130",
+                "head_office_brstn": "011300016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "INGBPHMMRTL",
+            "bank_name": "ING Bank N.V.",
+            "pchc": {
+                "bank_code": "066",
+                "head_office_brstn": "010660016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "BUTRPHM1XXX",
+            "bank_name": "Bureau of Treasury",
+            "pchc": {
+                "bank_code": "001",
+                "head_office_brstn": "010010019"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CHSVPHM1XXX",
+            "bank_name": "CHINA BANK SAVINGS",
+            "pchc": {
+                "bank_code": "112",
+                "head_office_brstn": "011129996"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "QCRIPHM1XXX",
+            "bank_name": "Quezon Capital Rural Bank",
+            "pchc": {
+                "bank_code": "901",
+                "head_office_brstn": "019010010"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CIMBPHMMXXX",
+            "bank_name": "CIMB Bank Philippines",
+            "pchc": {
+                "bank_code": "801",
+                "head_office_brstn": "018010011"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "DUMTPHM1XXX",
+            "bank_name": "DUNGGANON BANK ",
+            "pchc": {
+                "bank_code": "902",
+                "head_office_brstn": "049020012"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "RBSMPHMMXXX",
+            "bank_name": "RURAL BANK OF SAN MEDJUGORJE",
+            "pchc": {
+                "bank_code": "991",
+                "head_office_brstn": "019919917"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "WEDVPHM1XXX",
+            "bank_name": "WEALTH DEVELOPMENT BANK,INC.",
+            "pchc": {
+                "bank_code": "120",
+                "head_office_brstn": "021200054"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PSCOPHM1XXX",
+            "bank_name": "PRODUCERS SAVINGS BANK",
+            "pchc": {
+                "bank_code": "122",
+                "head_office_brstn": "011220015"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "AIIPPHM1XXX",
+            "bank_name": "AL-AMANAH ISLAMIC BANK",
+            "pchc": {
+                "bank_code": "036",
+                "head_office_brstn": "010360015"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "MKRUPHM1XXX",
+            "bank_name": "BANK OF MAKATI",
+            "pchc": {
+                "bank_code": "121",
+                "head_office_brstn": "011210012"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PAPHPHM1XXX",
+            "bank_name": "PAYMAYA PHILIPPINES",
+            "pchc": {
+                "bank_code": "802",
+                "head_office_brstn": "018029992"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "CELRPHM1XXX",
+            "bank_name": "CEBUANA LHUILLIER BANK",
+            "pchc": {
+                "bank_code": "144",
+                "head_office_brstn": "011440015"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "DCPHPHM1XXX",
+            "bank_name": "DCPAY PHILIPPINES",
+            "pchc": {
+                "bank_code": "803",
+                "head_office_brstn": "018030017"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "IBKOPHMMXXX",
+            "bank_name": "INDUSTRIAL BANK OF KOREA - MANILA",
+            "pchc": {
+                "bank_code": "131",
+                "head_office_brstn": "011310019"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PRBIPHM1XXX",
+            "bank_name": "PROGRESSIVE RURAL BANK, INC",
+            "pchc": {
+                "bank_code": "992",
+                "head_office_brstn": "019920016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "BORRPHM1XXX",
+            "bank_name": "Bank of Florida",
+            "pchc": {
+                "bank_code": "140",
+                "head_office_brstn": "061400018"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "ONNRPHM1XXX",
+            "bank_name": "One Network Bank",
+            "pchc": {
+                "bank_code": "118",
+                "head_office_brstn": "031189974"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "MNPDPHMMXXX",
+            "bank_name": "BANCO DEL MONTE NACIONAL",
+            "pchc": {
+                "bank_code": "993",
+                "head_office_brstn": "019930001"
+            },
+            "active": false
+        },
+        {
+            "BICFI": "RUGUPHM1XXX",
+            "bank_name": "RURAL BANK OF GUINOBATAN",
+            "pchc": {
+                "bank_code": "148",
+                "head_office_brstn": "161480019"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "MAARPHM1XXX",
+            "bank_name": "MALAYAN BANK",
+            "pchc": {
+                "bank_code": "082",
+                "head_office_brstn": "010820018"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "FRUNPHM1XXX",
+            "bank_name": "Filidian Rural Bank of Antipolo Inc.",
+            "pchc": {
+                "bank_code": "903",
+                "head_office_brstn": "019030016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "ALKBPHM2XXX",
+            "bank_name": "AllBank, Inc.",
+            "pchc": {
+                "bank_code": "129",
+                "head_office_brstn": "011290016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "SUSVPHM1XXX",
+            "bank_name": "Sun Savings Bank",
+            "pchc": {
+                "bank_code": "904",
+                "head_office_brstn": "029040012"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "NOVAPHM1XXX",
+            "bank_name": "Novare Bank 1",
+            "pchc": {
+                "bank_code": "501",
+                "head_office_brstn": "015010014"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "NOVAPHM2XXX",
+            "bank_name": "Novare Bank 2",
+            "pchc": {
+                "bank_code": "502",
+                "head_office_brstn": "015020017"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "NOVAPHM3XXX",
+            "bank_name": "Novare Bank 3",
+            "pchc": {
+                "bank_code": "503",
+                "head_office_brstn": "015030010"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "HBPHPHMMXXX",
+            "bank_name": "HSBC SAVINGS BANK PHILS.,INC.",
+            "pchc": {
+                "bank_code": "089",
+                "head_office_brstn": "010899997"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "EAWRPHM2XXX",
+            "bank_name": "EAST WEST RURAL BANK",
+            "pchc": {
+                "bank_code": "905",
+                "head_office_brstn": "019050012"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "IORUPHM1XXX",
+            "bank_name": "INNOVATIVE BANK",
+            "pchc": {
+                "bank_code": "906",
+                "head_office_brstn": "019060015"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "PSTB0000XXX",
+            "bank_name": "PesoNet Support Test Bank",
+            "pchc": {
+                "bank_code": "765",
+                "head_office_brstn": "017654321"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "RUCAPHM1XXX",
+            "bank_name": "CAMALIG BANK",
+            "pchc": {
+                "bank_code": "146",
+                "head_office_brstn": "161460013"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "GXCHPHM2XXX",
+            "bank_name": "GCASH",
+            "pchc": {
+                "bank_code": "804",
+                "head_office_brstn": "018040010"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "QCDFPHM1XXX",
+            "bank_name": "QUEEN CITY DEVELOPMENT BANK",
+            "pchc": {
+                "bank_code": "023",
+                "head_office_brstn": "080230515"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "MRTCPHM1XXX",
+            "bank_name": "Bangko Mabuhay (A Rural Bank, Inc.)",
+            "pchc": {
+                "bank_code": "907",
+                "head_office_brstn": "419070016"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "COUKPHM1XXX",
+            "bank_name": "COUNTRY BUILDERS BANK,INC.",
+            "pchc": {
+                "bank_code": "145",
+                "head_office_brstn": "011450018"
+            },
+            "active": true
+        },
+        {
+            "BICFI": "RARLPHM1XXX",
+            "bank_name": "RANG-AY BANK",
+            "pchc": {
+                "bank_code": "908",
+                "head_office_brstn": "019080011"
+            },
+            "active": true
+        }
+    ]
+}

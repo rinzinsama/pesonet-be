@@ -1,0 +1,93 @@
+<html lang="en">
+  <head>
+    <title>Outward Message</title>
+    <link rel="stylesheet" href="{{ host }}/pesonet_report.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <img src="{{ host }}/mufg_logo.png" />
+      <span>MUFG</span>
+    </div>
+    <div class="header-content">
+      <h2>DAILY CONSOLIDATED REPORT - {{ date }}</h2>
+    </div>
+    <div class="transactions-content">
+      <div class="report-content">
+        <table class="report-table">
+          <thead>
+            <tr class="border-bottom">
+              <th class="text-left">
+                <b>BANK NAME</b>
+              </th>
+              <th class="text-center">
+                <b>OUTWARD COUNT</b>
+              </th>
+              <th class="text-center">
+                <b>LOSS (DEBIT)</b>
+              </th>
+              <th class="text-center">
+                <b>INWARD COUNT</b>
+              </th>
+              <th class="text-center">
+                <b>WIN (CREDIT)</b>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            {{#each txn}}
+            <tr>
+              <td>{{ this.bankName }}</td>
+              <td class="text-right">{{ this.outwardCount }}</td>
+              <td class="text-right">{{ this.loss }}</td>
+              <td class="text-right">{{ this.inwardCount }}</td>
+              <td class="text-right">{{ this.win }}</td>
+            </tr>
+            {{/each}}
+            <tr class="border-bottom">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="text-center large-text">TOTAL</td>
+              <td class="text-right">{{ outwardTotal }}</td>
+              <td class="text-right">{{ lossTotal }}</td>
+              <td class="text-right">{{ inwardTotal }}</td>
+              <td class="text-right">{{ winTotal }}</td>
+            </tr>
+            <tr class="border-bottom">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="text-center large-text">NET SETTLEMENT</td>
+              <td class="text-right"></td>
+              <td class="text-right">{{ netLoss }}</td>
+              <td class="text-right"></td>
+              <td class="text-right">{{ netWin }}</td>
+            </tr>
+            <tr class="border-bottom">
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

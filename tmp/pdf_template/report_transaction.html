@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <title>Outward Message</title>
+    <link rel="stylesheet" href="{{ host }}/pdf.css" />
+  </head>
+  <body>
+    <div class="header-content">
+      <img src="{{ host }}/mufg_logo.png" />
+      <span>MUFG</span>
+    </div>
+    <div class="title-header-content">
+      <h2>{{ type }} TRANSACTIONS - {{ date }}</h2>
+    </div>
+    <div class="sub-header-content">
+      <h3 class="same-line">NUMBER OF TRANSACTIONS: {{ count }}</h3>
+      <h3 class="same-line text-right">TOTAL AMOUNT: {{ totalAmount }}</h3>
+    </div>
+    <div class="transactions-content">
+      {{#each txn}}
+      <table class="transaction-table">
+        <tr>
+          <td><b>SEQUENCE NUMBER</b></td>
+          <td><b>SETTLEMENT DATE</b></td>
+        </tr>
+        <tr>
+          <td>{{ this.sequenceNumber }}</td>
+          <td>{{ this.settlementDate }}</td>
+        </tr>
+        <tr>
+          <td><b>PAYMENT ID</b></td>
+          <td><b>AMOUNT</b></td>
+        </tr>
+        <tr>
+          <td>{{ this.endToEndId }}</td>
+          <td>{{ this.parsedAmount }}</td>
+        </tr>
+        <tr>
+          <td><b>OFI REFERENCE NUMBER</b></td>
+          <td><b>OFI CUSTOMER REFERENCE NUMBER</b></td>
+        </tr>
+        <tr>
+          <td>{{ this.ofiReferenceNumber }}</td>
+          <td>{{ this.ofiCustomerReferenceNumber }}</td>
+        </tr>
+        <tr>
+          <td><b>RFI REFERENCE NUMBER</b></td>
+          <td><b>RFI CUSTOMER REFERENCE NUMBER</b></td>
+        </tr>
+        <tr>
+          <td>{{ this.rfiReferenceNumber }}</td>
+          <td>{{ this.rfiCustomerReferenceNumber }}</td>
+        </tr>
+        <tr>
+          <td colspan="2"><b>INSTRUCTIONS</b></td>
+        </tr>
+        <tr>
+          <td colspan="2">{{ this.instructions }}</td>
+        </tr>
+        <tr>
+          <td><b>DEBTOR/REMITTER NAME</b></td>
+          <td><b>DEBTOR/REMITTER ADDRESS</b></td>
+        </tr>
+        <tr>
+          <td>{{ this.remitterName }}</td>
+          <td>{{ this.remitterAddress }}</td>
+        </tr>
+        <tr>
+          <td><b>DEBTOR/REMITTER ACCOUNT NUMBER</b></td>
+          <td><b>BIC OF ORIGINATING INSTITUTION</b></td>
+        </tr>
+        <tr>
+          <td>{{ this.remitterAccountNumber }}</td>
+          <td>{{ this.remitterBIC }}</td>
+        </tr>
+        <tr>
+          <td><b>CREDITOR/BENEFICIARY NAME</b></td>
+          <td><b>CREDITOR/BENEFICIARY ADDRESS</b></td>
+        </tr>
+        <tr>
+          <td>{{ this.beneficiaryName }}</td>
+          <td>{{ this.beneficiaryAddress }}</td>
+        </tr>
+        <tr>
+          <td><b>CREDITOR/BENEFICIARY ACCOUNT NUMBER</b></td>
+          <td><b>CREDITOR/BENEFICIARY BANK BIC</b></td>
+        </tr>
+        <tr>
+          <td>{{ this.beneficiaryAccountNumber }}</td>
+          <td>{{ this.beneficiaryBIC }}</td>
+        </tr>
+        <tr>
+          <td><b>STATUS</b></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>{{ this.statusMessage }}</td>
+          <td></td>
+        </tr>
+      </table>
+      {{/each}}
+    </div>
+  </body>
+</html>
