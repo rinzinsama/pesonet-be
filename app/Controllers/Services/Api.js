@@ -495,30 +495,33 @@ class ApiService {
     );
 
     if (responseStatus == 200) {
-      let found = 0;
-      let dateIndex = 0;
-      let settlement_date = "";
-      do {
-        const { status, body } = await ApiService.sendIndex({
-          cycle: 1,
-          settlementDate: moment(data.outward_message.received_date, "x")
-            .add(dateIndex, "day")
-            .format("YYYY-MM-DD"),
-        });
+      // let found = 0;
+      // let dateIndex = 0;
+      // let settlement_date = "";
+      // do {
+      //   const { status, body } = await ApiService.sendIndex({
+      //     cycle: 1,
+      //     settlementDate: moment(data.outward_message.received_date, "x")
+      //       .add(dateIndex, "day")
+      //       .format("YYYY-MM-DD"),
+      //   });
 
-        if (
-          status == 200 &&
-          body.data.index.outward_batches.includes(+data.outward_message.seq)
-        ) {
-          settlement_date = moment(data.outward_message.received_date, "x")
-            .add(dateIndex, "day")
-            .format("YYYY/MM/DD");
-          found = 1;
-        }
+      //   if (
+      //     status == 200 &&
+      //     body.data.index.outward_batches.includes(data.outward_message.seq)
+      //   ) {
+      //     settlement_date = moment(data.outward_message.received_date, "x")
+      //       .add(dateIndex, "day")
+      //       .format("YYYY-MM-DD");
+      //     found = 1;
+      //   }
 
-        dateIndex++;
-      } while (found == 0);
+      //   dateIndex++;
+      // } while (found == 0);
 
+      let settlement_date = moment(data.outward_message.received_date, "x")
+            .format("YYYY-MM-DD");
+            console.log(data,settlement_date,"daasdasd")
       response = BaseService.withDataResponseSerializer(
         data,
         { responseStatus, settlement_date },

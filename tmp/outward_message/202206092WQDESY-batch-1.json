@@ -1,0 +1,56 @@
+{
+    "bicOfBank": "BOTKPHMMXXX",
+    "transactions": [
+        {
+            "ofiReferenceNumber": "BTMUGCP7705398",
+            "amount": "1302126.00",
+            "remitterName": "HISAMITSU PHARMACEUTICAL CO. INC MANILA BRANCH",
+            "remitterAddress": "11C MARCO POLO BLDG., MERALCO AVE and SAPPHIRE ROAD,",
+            "remitterAccountNumber": "008052",
+            "remitterBIC": "BOTKPHMMXXX",
+            "beneficiaryName": "Tokyo Consulting Firm Phil Branch",
+            "beneficiaryAddress": "VA Rufino cor Valero St Salcedo Vill Makati City",
+            "beneficiaryAccountNumber": "5147514031076",
+            "beneficiaryBIC": "MBTCPHMMXXX",
+            "rfiReferenceNumber": "METROPOLITAN BAN",
+            "ofiCustomerReferenceNumber": "BTMU",
+            "rfiCustomerReferenceNumber": "METROPOLITAN BAN",
+            "instructions": "Consultation Fee",
+            "sent": true
+        },
+        {
+            "ofiReferenceNumber": "BTMUGCP7750002",
+            "amount": "1600.00",
+            "remitterName": "KEYENCE PHILIPPINES INC",
+            "remitterAddress": "BLDG 6 PANORAMA CMPD 6 LT3 BLK5 LTI ANNEX BINAN LA",
+            "remitterAccountNumber": "010561",
+            "remitterBIC": "BOTKPHMMXXX",
+            "beneficiaryName": "Crystalyn Nones Balaguer",
+            "beneficiaryAddress": "",
+            "beneficiaryAccountNumber": "0000019267624",
+            "beneficiaryBIC": "SETCPHMMXXX",
+            "rfiReferenceNumber": "SECURITY BANK",
+            "ofiCustomerReferenceNumber": "BTMU",
+            "rfiCustomerReferenceNumber": "SECURITY BANK",
+            "instructions": "REM ADD:GUNA PHILIPPINES PAYROLL",
+            "sent": true
+        },
+        {
+            "ofiReferenceNumber": "BTMUGCP7750003",
+            "amount": "2400.00",
+            "remitterName": "KEYENCE PHILIPPINES INC",
+            "remitterAddress": "BLDG 6 PANORAMA CMPD 6 LT3 BLK5 LTI ANNEX BINAN LA",
+            "remitterAccountNumber": "010561",
+            "remitterBIC": "BOTKPHMMXXX",
+            "beneficiaryName": "Zoilo Luis Ongsiako Lontok",
+            "beneficiaryAddress": "",
+            "beneficiaryAccountNumber": "0000011153363",
+            "beneficiaryBIC": "SETCPHMMXXX",
+            "rfiReferenceNumber": "SECURITY BANK",
+            "ofiCustomerReferenceNumber": "BTMU",
+            "rfiCustomerReferenceNumber": "SECURITY BANK",
+            "instructions": "REM ADD:GUNA PHILIPPINES PAYROLL",
+            "sent": true
+        }
+    ]
+}

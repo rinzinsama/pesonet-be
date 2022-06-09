@@ -11,6 +11,7 @@ const moment = use("moment");
 const Encryption = use("Encryption");
 const randomstring = use("randomstring");
 
+
 class OutwardService {
   static fields() {
     return [
@@ -276,10 +277,11 @@ class OutwardService {
     let transForSending = transactions.filter((txn, idx) =>
       forSubmission.includes(idx)
     );
-
-    forSubmission.forEach((idx) => {
+    console.log(transactions,forSubmission,"transactions")
+    forSubmission.map((idx) => {
       transactions[idx].sent = true;
     });
+
 
     if (lecs.length > 0) {
       const txns = await OutwardParser.checkLocalExternalCodes(lecs, user);
@@ -620,7 +622,8 @@ class OutwardService {
 
     outwardModel.merge({
       number_of_transaction,
-      total_amount,
+      total_amount/
+
     });
 
     await outwardModel.save();
