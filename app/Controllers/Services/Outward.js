@@ -622,7 +622,7 @@ class OutwardService {
 
     outwardModel.merge({
       number_of_transaction,
-      total_amount/
+      total_amount
 
     });
 
